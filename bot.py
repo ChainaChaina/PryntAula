@@ -17,5 +17,5 @@ while (current_time != printTime ):
     system('cls')
 
 capturar = pyautogui.screenshot()
-capturar.save( printTime +'.png')
+capturar.save( 'aula.png')
 print('ótima aula')
